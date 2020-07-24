@@ -1,0 +1,26 @@
+{
+  "name": "12-books-recommender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inuknuk/Book-Recommender.git"
+  },
+  "author": "Alexandre Inukai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inuknuk/Book-Recommender/issues"
+  },
+  "homepage": "https://github.com/inuknuk/Book-Recommender#readme",
+  "dependencies": {
+    "express": "*",
+    "body-parser": "1.19.0",
+    "ejs": "^2.4.2",
+    "morgan": "1.10.0",
+    "neo4j-driver": "4.1.0"
+  }
+}
